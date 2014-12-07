@@ -7,7 +7,7 @@
 
 #PBS -V
 #PBS -S /bin/bash
-#PBS -N crawler
+#PBS -N crawler1
 #PBS -l nodes=2:ppn=8,mem=16GB
 #PBS -l walltime=48:00:00
 #PBS -M sx238@nyu.edu

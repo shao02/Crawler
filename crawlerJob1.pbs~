@@ -18,6 +18,6 @@
 ###-----PBS Directives End-----###
 cd /scratch/sx238/crawlerJob/crawler
 
-java -classpath crawler4j-3.6-SNAPSHOT-jar-with-dependencies.jar edu.uci.ics.crawler4j.examples.multiple.CrawlerControllerFinalProject /scratch/sx238/corpus2/crawler8 /scratch/sx238/corpus2/crawler9 http://www.washingtonpost.com http://www.nytimes.com http://www.washingtonpost.com/entertainment/ http://www.nytimes.com/pages/technology/index.html > /scratch/sx238/crawlerOutput/output2.3.log
+java -classpath crawler4j-3.6-SNAPSHOT-jar-with-dependencies.jar edu.uci.ics.crawler4j.examples.multiple.CrawlerControllerFinalProject /scratch/sx238/corpus3/crawler1 /scratch/sx238/corpus3/crawler2 http://www.washingtonpost.com http://www.nytimes.com http://www.washingtonpost.com/entertainment/ http://www.nytimes.com/pages/technology/index.html > /scratch/sx238/crawlerOutput/output3.1.log
 
 exit 0;

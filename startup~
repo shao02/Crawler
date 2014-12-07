@@ -1,0 +1,11 @@
+#!/bin/bash
+
+touch /scratch/sx238/crawlerOutput/output3.1.log
+touch /scratch/sx238/crawlerOutput/output3.2.log
+touch /scratch/sx238/crawlerOutput/output3.3.log
+touch /scratch/sx238/crawlerOutput/output3.4.log
+touch /scratch/sx238/crawlerOutput/output3.5.log
+touch /scratch/sx238/crawlerOutput/output3.6.log
+touch /scratch/sx238/crawlerOutput/output3.7.log
+
+

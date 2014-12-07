@@ -7,7 +7,7 @@
 
 #PBS -V
 #PBS -S /bin/bash
-#PBS -N crawler
+#PBS -N crawler2
 #PBS -l nodes=2:ppn=8,mem=16GB
 #PBS -l walltime=48:00:00
 #PBS -M sx238@nyu.edu
@@ -18,6 +18,6 @@
 ###-----PBS Directives End-----###
 cd /scratch/sx238/crawlerJob/crawler
 
-java -classpath crawler4j-3.6-SNAPSHOT-jar-with-dependencies.jar edu.uci.ics.crawler4j.examples.multiple.CrawlerControllerFinalProject /scratch/sx238/corpus3/crawler3 /scratch/sx238/corpus3/crawler4 http://www.latimes.com/business/ http://web.mit.edu/ http://www.latimes.com/business/ http://web.mit.edu/research/ > /scratch/sx238/crawlerOutput/output3.2.log
+java -classpath crawler4j-3.6-SNAPSHOT-jar-with-dependencies.jar edu.uci.ics.crawler4j.examples.multiple.CrawlerControllerFinalProject /scratch/sx238/corpus3/crawler3 /scratch/sx238/corpus3/crawler4 http://www.latimes.com/business/ http://web.mit.edu/ http://www.latimes.com/business/ http://web.mit.edu/research/ >> /scratch/sx238/crawlerOutput/output3.2.log
 
 exit 0;

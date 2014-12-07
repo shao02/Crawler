@@ -1,0 +1,17 @@
+#!/bin/bash
+
+touch /scratch/sx238/crawlerOutput/output3.1.log
+touch /scratch/sx238/crawlerOutput/output3.2.log
+touch /scratch/sx238/crawlerOutput/output3.3.log
+touch /scratch/sx238/crawlerOutput/output3.4.log
+touch /scratch/sx238/crawlerOutput/output3.5.log
+touch /scratch/sx238/crawlerOutput/output3.6.log
+touch /scratch/sx238/crawlerOutput/output3.7.log
+
+qsub crawlerJob1.pbs
+qsub crawlerJob2.pbs
+qsub crawlerJob3.pbs
+qsub crawlerJob4.pbs
+qsub crawlerJob5.pbs
+qsub crawlerJob6.pbs
+qsub crawlerJob7.pbs
