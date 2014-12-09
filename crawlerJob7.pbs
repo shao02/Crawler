@@ -18,7 +18,7 @@
 ###-----PBS Directives End-----###
 cd /scratch/sx238/crawlerJob/crawler
 
-java -classpath crawler4j-3.6-SNAPSHOT-jar-with-dependencies.jar edu.uci.ics.crawler4j.examples.multiple.CrawlerControllerFinalProject /scratch/sx238/corpus3/crawler13 /scratch/sx238/corpus3/crawler14 http://www.foxnews.com/ http://www.bbc.com/news/ http://www.foxnews.com/travel/index.html http://www.bbc.com/news/world/europe/ >> /scratch/sx238/crawlerOutput/output3.7.log
+java -classpath crawler4j-3.6-SNAPSHOT-jar-with-dependencies.jar edu.uci.ics.crawler4j.examples.basic.BasicCrawlController /scratch/sx238/corpus4 http://www.foxnews.com/ http://www.bbc.com/news/ http://www.foxnews.com/travel/index.html > /scratch/sx238/crawlerOutput/output4.7.log
 
 
 exit 0;
