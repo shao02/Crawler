@@ -18,7 +18,7 @@
 ###-----PBS Directives End-----###
 cd /scratch/sx238/crawlerJob/crawler
 
-java -classpath crawler4j-3.6-SNAPSHOT-jar-with-dependencies.jar edu.uci.ics.crawler4j.examples.basic.BasicCrawlController /scratch/sx238/corpus4 http://www.yahoo.com/ https://www.linkedin.com/ http://topics.nytimes.com/top/news/business/companies/microsoft_corporation/index.html > /scratch/sx238/crawlerOutput/output4.8.log
+java -classpath crawler4j-3.6-SNAPSHOT-jar-with-dependencies.jar edu.uci.ics.crawler4j.examples.basic.BasicCrawlController /scratch/sx238/corpus4 https://www.bing.com/news https://www.linkedin.com/ http://www.microsoft.com/ > /scratch/sx238/crawlerOutput/output4.8.log
 
 
 exit 0;

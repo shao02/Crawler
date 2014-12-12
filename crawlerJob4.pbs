@@ -16,9 +16,9 @@
 #PBS -o localhost:${PBS_O_WORKDIR}/${PBS_JOBNAME}.o${PBS_JOBID}
 
 ###-----PBS Directives End-----###
-cd /scratch/sx238/crawlerJob/crawler
+cd /archive/sx238/crawler
 
-java -classpath crawler4j-3.6-SNAPSHOT-jar-with-dependencies.jar edu.uci.ics.crawler4j.examples.basic.BasicCrawlController /scratch/sx238/corpus4 http://zh.wikipedia.org/ http://www.amazon.com/ http://espn.go.com/ > /scratch/sx238/crawlerOutput/output4.4.log
+java -classpath crawler4j-3.6-SNAPSHOT-jar-with-dependencies.jar edu.uci.ics.crawler4j.examples.basic.BasicCrawlController /scratch/sx238/corpus4 http://zh.wikipedia.org/ http://www.amazon.com/ http://espn.go.com/ > /scratch/sx238/crawlerOutput/output5.4.log
 
 
 exit 0;

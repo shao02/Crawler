@@ -7,7 +7,7 @@
 
 #PBS -V
 #PBS -S /bin/bash
-#PBS -N crawler1
+#PBS -N crawler10
 #PBS -l nodes=2:ppn=8,mem=16GB
 #PBS -l walltime=48:00:00
 #PBS -M sx238@nyu.edu
@@ -16,8 +16,9 @@
 #PBS -o localhost:${PBS_O_WORKDIR}/${PBS_JOBNAME}.o${PBS_JOBID}
 
 ###-----PBS Directives End-----###
-cd /archive/sx238/crawler
+cd /scratch/sx238/crawlerJob/crawler
 
-java -classpath java -classpath crawler4j-3.6-SNAPSHOT-jar-with-dependencies.jar edu.uci.ics.crawler4j.examples.basic.BasicCrawlController /scratch/sx238/corpus4/ http://www.washingtonpost.com http://www.nytimes.com http://www.washingtonpost.com/entertainment/ > /scratch/sx238/crawlerOutput/output5.1.log
+java -classpath crawler4j-3.6-SNAPSHOT-jar-with-dependencies.jar edu.uci.ics.crawler4j.examples.basic.BasicCrawlController /scratch/sx238/corpus4 http://www.about.com/food http://www.about.com/money/ http://www.about.com/compute/ > /scratch/sx238/crawlerOutput/output4.10.log
+
 
 exit 0;
